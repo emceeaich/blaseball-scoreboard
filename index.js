@@ -1,3 +1,4 @@
+// jshint esversion: 6
 const AsciiTable = require("ascii-table");
 const printf = require("printf");
 const blessed = require("blessed");
@@ -37,7 +38,7 @@ screen.append(titlebox);
 
 // Render the screen.
 screen.render();
-
+ 
 
 let gameBoxes;
 

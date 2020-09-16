@@ -28,5 +28,8 @@
     "blessed": "^0.1.81",
     "eventsource": "^1.0.7",
     "printf": "^0.6.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.12.0"
   }
 }
