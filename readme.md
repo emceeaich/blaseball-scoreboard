@@ -9,9 +9,15 @@ Maintained by @jazzychad and @emceeaich.
 
 Running: 
 
-- git clone this project
-- npm install
-- npm start
+```
+git https://github.com/emceeaich/blaseball-scorecard
+npm install
+npm start
+```
+
+*or*
+
+`npx https://github.com/emceeaich/blaseball-scoreboard`
 
 TODO:
 
