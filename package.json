@@ -6,13 +6,9 @@
   "repository": "https://github.com/emceeaich/blaseball-scoreboard",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "blaseball-scoreboard": "node index.js"
+    "start": "node index.js"
   },
-  "bin": {
-    "blaseball-scoreboard": "./index.js",
-    "blaseball": "./index.js"
-  },
+  "bin": "./index.js",
   "keywords": [
     "blaseball"
   ],
