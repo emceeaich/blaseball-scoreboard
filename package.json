@@ -8,6 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
+  "bin": {
+    "blaseball-scoreboard": "./index.js",
+    "blaseball": "./index.js"
+  },
   "keywords": [
     "blaseball"
   ],
