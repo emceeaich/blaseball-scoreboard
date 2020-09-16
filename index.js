@@ -18,7 +18,6 @@ const screen = blessed.screen({
   },
 });
 
-
 screen.key(["q", "C-c"], function (ch, key) {
   return process.exit(0);
 });
