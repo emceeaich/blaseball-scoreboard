@@ -1,27 +1,7 @@
-/*
-
-Running: 
-
-- Install index.js and package.json in a folder.
-- npm install
-- npm start
-
-TODO:
-- [ ] Show team win/loss record
-- [ ] Show weather
-- [ ] Show game series info (1 of 3, etc)
-- [ ] Better winning score indicator
-- [ ] Team emoji/avatar display?
-- [?] Better use of space/alignment
-
-*/
-
-
-
 const AsciiTable = require("ascii-table");
 const printf = require("printf");
 const blessed = require("blessed");
-
+const EventSource = require("eventsource");
 
 // Create a screen object.
 const screen = blessed.screen({
@@ -62,7 +42,6 @@ screen.render();
 
 let gameBoxes;
 
-const EventSource = require("eventsource");
 const es = new EventSource("https://www.blaseball.com/events/streamData");
 
 // listen for "message"s from the stream
