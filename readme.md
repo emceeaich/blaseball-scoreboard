@@ -20,4 +20,4 @@ TODO:
 - [ ] Show game series info (1 of 3, etc)
 - [ ] Better winning score indicator
 - [ ] Team emoji/avatar display?
-- [?] Better use of space/alignment
+- [ ] Better use of space/alignment
