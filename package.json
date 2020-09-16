@@ -1,23 +1,26 @@
 {
   "name": "blaseball-scoreboard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ASCII Blaseball Scoreboard",
   "main": "index.js",
+  "repository": "https://github.com/emceeaich/blaseball-scoreboard",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "keywords": [
-    "blaseball",
-    "the",
-    "commissioner",
-    "is",
-    "doing",
-    "a",
-    "great",
-    "job"
+    "blaseball"
   ],
-  "author": "jazzychad",
+  "maintainers": [
+    {
+      "name": "Chad Etzel",
+      "url": "https://github.com/jazzychad"
+    },
+    {
+      "name": "Emma Humphries",
+      "url": "https://emmah.net/"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
     "ascii-table": "0.0.9",
