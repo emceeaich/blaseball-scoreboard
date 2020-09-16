@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 // jshint esversion: 6
 const AsciiTable = require("ascii-table");
 const printf = require("printf");
