@@ -1,7 +1,7 @@
 {
   "name": "blaseball-scoreboard",
   "version": "0.1.1",
-  "description": "ASCII Blaseball Scoreboard",
+  "description": "Terminal Blaseball Scoreboard",
   "main": "index.js",
   "repository": "https://github.com/emceeaich/blaseball-scoreboard",
   "scripts": {
