@@ -1,8 +1,10 @@
 /*
 
-npm install ascii-table blessed eventsource printf
+Running: 
 
-node blaseball.js
+- Install index.js and package.json in a folder.
+- npm install
+- npm start
 
 TODO:
 - [ ] Show team win/loss record
@@ -10,7 +12,7 @@ TODO:
 - [ ] Show game series info (1 of 3, etc)
 - [ ] Better winning score indicator
 - [ ] Team emoji/avatar display?
-- [ ] Better use of space/alignment
+- [?] Better use of space/alignment
 
 */
 
