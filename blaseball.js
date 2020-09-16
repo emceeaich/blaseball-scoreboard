@@ -102,10 +102,8 @@ es.addEventListener("message", function (e) {
     table.setBorder(" ");
     table.addRow(printf("%-30s", inningInfo));
     table.addRow("", "");
-    table.addRow(printf("%-40s", "{bold}{" + game.awayTeamColor + "-fg}" + game.awayTeamNickname + "{/}"), game.awayScore);
-    table.addRow(printf("{#333333-fg}%2.f%%{/}", game.awayOdds * 100), "");
-    table.addRow("{bold}{" + game.homeTeamColor + "-fg}" + game.homeTeamNickname + "{/}", game.homeScore);
-    table.addRow(printf("{#333333-fg}%2.f%%{/}", game.homeOdds * 100), "");
+    table.addRow(printf("%-40s", "{bold}{" + game.awayTeamColor + "-fg}" + game.awayTeamNickname + "{/}"), printf("{#333333-fg}%2.f%%{/}", game.awayOdds * 100), game.awayScore);
+    table.addRow("{bold}{" + game.homeTeamColor + "-fg}" + game.homeTeamNickname + "{/}", printf("{#333333-fg}%2.f%%{/}", game.homeOdds * 100),  game.homeScore);
 
     let bsoTable = AsciiTable.factory();
     bsoTable.setBorder(" ");
