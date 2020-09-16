@@ -1,0 +1,28 @@
+{
+  "name": "blaseball-scoreboard",
+  "version": "0.1.0",
+  "description": "ASCII Blaseball Scoreboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "blaseball",
+    "the",
+    "commissioner",
+    "is",
+    "doing",
+    "a",
+    "great",
+    "job"
+  ],
+  "author": "jazzychad",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "blessed": "^0.1.81",
+    "eventsource": "^1.0.7",
+    "printf": "^0.6.0"
+  }
+}
